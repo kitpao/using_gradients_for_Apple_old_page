@@ -1,10 +1,9 @@
 # using_gradients_for_Apple_old_page
-Put into action my newly-aquired knowledge of gradients
-Old Apple clone assignment for Microverse developers program using gradients in HTML and CSS.
+Objective: Put into action my newly-aquired knowledge of gradients and backgrounds
 
-If you want to preview the project use this link:
+*Old Apple clone assignment for Microverse developers program using gradients in HTML and CSS.*
 
-**REMEMBER TO UPDATE THE PAGE**(https://rawcdn.githack.com/leonmezu1/Positioning_and_Floating/ce2cd47c3e3626697fb6ce333582c45b9bd41d5c/index.html)
+Project preview: **REMEMBER TO UPDATE THE PAGE**(https://rawcdn.githack.com/leonmezu1/Positioning_and_Floating/ce2cd47c3e3626697fb6ce333582c45b9bd41d5c/index.html)
 
 The archive of the original Apple page:
 * *Fast loading:* http://archive.fo/UW4oR
@@ -22,7 +21,7 @@ Skills to use and requirements:
 
 * Align all elements with float OR flex
 * Use gradients for navigation bar
-* Dinamic changes when you hover
+* Dinamic changes when you hover over some items
 * Use background images
 * Use icons
 
