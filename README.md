@@ -19,10 +19,10 @@ https://github.com/kitpao?tab=repositories
 
 Skills to use and requirements:
 
-* Align all elements with float OR flex
+* Align elements with float and flex
 * Use gradients for navigation bar
-* Dinamic changes when you hover over some items
+* Dynamic changes when you hover over some items
 * Use background images
-* Use icons
+* Crop images with CSS
 
 MUST: use of linterns, follow CSS best practices, use of CSS Reset

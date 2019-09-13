@@ -1,0 +1,68 @@
+/* --------------------Beginning of CSS Reset--------------------------*/
+
+html,
+body,
+div,
+span,
+p,
+img,
+ul
+li,
+aside,
+footer,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+aside,
+footer,
+nav {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* ---------------------------End of CSS Reset-----------------------------*/
+
+/*---------------------------Beginning of BOXes section--------------------*/
+/*
+.container
+  main
+    nav
+      ul
+        li
+
+    .text
+
+        .play_container
+
+  aside.promos
+    .four
+
+  footer
+    .left
+    .right
+      ul
+        li
+*/
+/*---------------------------End of BOXes section--------------------*/
