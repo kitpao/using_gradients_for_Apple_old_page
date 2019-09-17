@@ -1,0 +1,263 @@
+/* --------------------Beginning of CSS Reset-------------------------- */
+
+html,
+body,
+div,
+span,
+p,
+img,
+ul,
+li,
+aside,
+footer,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+aside,
+footer,
+nav {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+/* ---------------------------End of CSS Reset----------------------------- */
+
+/* ---------------------------Beginning of BOXes section-------------------- */
+*,
+*::before,
+*::after {
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 1014px;
+  max-width: 1444px;
+}
+
+main {
+  position: relative;
+  height: 540px;
+  background: url("images/background.jpg") bottom no-repeat;
+  background-size: cover;
+  border: #fff 2px solid;
+  border-bottom: none;
+}
+
+nav {
+  margin: 80px auto 30px;
+  overflow: hidden;
+  width: 980px;
+  background: linear-gradient(#666 0% 10%, #5e5e5e 35% 50%, #707070 51% 65%, #808080 90% 100%);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1.5px 0 #948794;
+}
+
+.nav_item {
+  display: block;
+  position: relative;
+  float: left;
+  height: 36px;
+  width: 105px;
+  text-align: center;
+  font: 12px/18px Helvetica, Arial, Verdana, sans-serif;
+  line-height: 36px;
+  font-weight: bold;
+  color: #fff;
+  border-right: #595259 1px solid;
+}
+
+.nav_item:hover {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.nav_search {
+  float: left;
+  height: 36px;
+  width: 140px;
+}
+
+.search_internal {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  width: 75%;
+  border-radius: 18px;
+  box-shadow: 0 -2px 2px 0 #000;
+}
+
+input {
+  padding-right: 5px;
+  flex: 1;
+  height: 100%;
+  width: 75%;
+  font: 10px/12px Helvetica, Arial, Verdana, sans-serif;
+  color: white;
+  background-color: inherit;
+  border: none;
+}
+
+i {
+  padding: 4px 5px;
+  float: left;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+.first {
+  height: 94px;
+  width: 980px;
+}
+
+.second {
+  height: 110px;
+  width: 980px;
+}
+
+.play_container {
+  height: 34px;
+  width: 585px;
+}
+
+aside {
+  display: flex;
+  height: 202px;
+  border: #fff 1px solid;
+}
+
+.four {
+  flex: 4;
+  border: #fff 1px solid;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.promo1 {
+  background-image: url("images/promo1.jpg");
+}
+
+.promo2 {
+  background-image: url("images/promo2.jpg");
+}
+
+.promo3 {
+  background-image: url("images/promo3.jpg");
+}
+
+.promo4 {
+  background-image: url("images/promo4.jpg");
+}
+
+footer {
+  overflow: hidden;
+  display: block;
+  width: 1010px;
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+  margin: 18px;
+  display: block;
+}
+
+.right {
+  float: right;
+  margin: 18px;
+  display: block;
+}
+
+li {
+  display: inline-block;
+}
+
+/* ---------------------------End of BOXes section-------------------- */
+
+footer a {
+  color: #08c;
+}
+
+.text a {
+  margin: 0 auto;
+  display: block;
+}
+
+footer p,
+footer span,
+.right a {
+  font-size: 0.62em;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+}
+
+footer p,
+footer span {
+  color: #6e6e6e;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.nav_item svg {
+  position: relative;
+  transform: translateY(10%);
+  left: -30%;
+  width: 90px;
+  height: 40px;
+}
+
+footer img {
+  vertical-align: top;
+}
+
+.play_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.promos img {
+  object-fit: cover;
+}
+
+.play_container img:hover {
+  object-position: 0 100%;
+}
